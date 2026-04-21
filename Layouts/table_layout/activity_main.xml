@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:stretchColumns="*"
+    android:background="#FFFFFF">
+
+    <!-- Header Row -->
+    <TableRow
+        android:background="#3F51B5"
+        android:padding="2dp">
+        <TextView
+            android:text="Name"
+            android:padding="12dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:gravity="center" />
+        <TextView
+            android:text="Subject"
+            android:padding="12dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:gravity="center" />
+        <TextView
+            android:text="Marks"
+            android:padding="12dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:gravity="center" />
+    </TableRow>
+
+    <!-- Header Divider -->
+    <View
+        android:layout_height="2dp"
+        android:background="#303F9F" />
+
+    <!-- Data Row 1 -->
+    <TableRow>
+        <TextView
+            android:text="Divya"
+            android:padding="12dp"
+            android:textColor="#333333"
+            android:gravity="center" />
+        <TextView
+            android:text="Java"
+            android:padding="12dp"
+            android:textColor="#333333"
+            android:gravity="center" />
+        <TextView
+            android:text="90"
+            android:padding="12dp"
+            android:textColor="#333333"
+            android:textStyle="bold"
+            android:gravity="center" />
+    </TableRow>
+
+    <!-- Row Divider -->
+    <View
+        android:layout_height="1dp"
+        android:background="#E0E0E0" />
+
+    <!-- Data Row 2 -->
+    <TableRow>
+        <TextView
+            android:text="Riya"
+            android:padding="12dp"
+            android:textColor="#333333"
+            android:gravity="center" />
+        <TextView
+            android:text="C++"
+            android:padding="12dp"
+            android:textColor="#333333"
+            android:gravity="center" />
+        <TextView
+            android:text="85"
+            android:padding="12dp"
+            android:textColor="#333333"
+            android:textStyle="bold"
+            android:gravity="center" />
+    </TableRow>
+
+    <!-- Row Divider -->
+    <View
+        android:layout_height="1dp"
+        android:background="#E0E0E0" />
+
+</TableLayout>
